@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# coding: utf-8
+
 from wxpy import *
 
 bot = Bot('bot.pkl', console_qr=True)
@@ -18,3 +21,6 @@ def new_friends(msg):
     '''
     user = msg.card.accept()
     invite(user)
+
+
+embed()
